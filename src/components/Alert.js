@@ -17,7 +17,7 @@ const Alert = (props) => {
     const [msg, setmsg] = useState(m)*/
     return (
         <div>
-            <div class="alert alert-primary" role="alert">
+            <div className="alert alert-primary" role="alert">
                 {props.message}
             </div>
         </div>
